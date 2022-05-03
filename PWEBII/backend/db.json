@@ -1,0 +1,72 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "novo post",
+      "author": "charlene",
+      "id": 2
+    },
+    {
+      "title": "terceiro post",
+      "author": "sonia",
+      "id": 3
+    },
+    {
+      "title": "quarto post",
+      "author": "anahi yoselin",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "body": "olá mundo",
+      "postId": 2,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "body": "olá sonia",
+      "postId": 3
+    },
+    {
+      "body": "olá gabriel",
+      "postId": 4,
+      "id": 4
+    }
+  ],
+  "profile": [
+    {
+      "name": "alteração",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Eu apenas"
+    }
+  ],
+  "usuario": [
+    {
+      "id": 1,
+      "nome": "charlene",
+      "idade": 17,
+      "profissao": "Estudante",
+      "curso": "Desenvolvimento de sistemas"
+    },
+    {
+      "nome": "sonia",
+      "idade": 22,
+      "profissao": "Estudante",
+      "curso": "Desenvolvimento de sistemas",
+      "id": 2
+    }
+  ]
+}
