@@ -27,8 +27,7 @@ export class HomeComponent implements OnInit {
       var variavel1;
       let variavel2;
       //Além disso, constantes devem ser inicializadas obrigatoriamente no momento de sua declaração
-      const variavel3 = 3;
-
+      
 
       //var
       var idade = 10
