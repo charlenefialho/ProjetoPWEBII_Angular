@@ -7,7 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-<<<<<<< HEAD
   //não é necessario colocar o public caso a variavel seja publica
    nomeProduto: string = "Curso de Angular";
    anuncio: string = `O ${this.nomeProduto} está em promoção`;
@@ -72,32 +71,6 @@ export class HomeComponent implements OnInit {
 
 
     }
-=======
-  public nomeProduto : string = 'Curso Angular';
-  anuncio : string = `O ${this.nomeProduto} está em promoção!`;
-  idProduto : number = 3.51;
-  precoProduto: number = 2.59;
-  promocao : boolean = false;
-  foto: string = 'assets/img/crud.png'
-  dataValidade = '2021-12-31'
-
-  constructor() {
-    //variaveis de string com concatenação
-    //this.anuncio = `O ` + this.nomeProduto + `está em promoção!`
-    /*console.log("Nome do Produto :", this.nomeProduto);
-    console.log("Anuncio :", this.anuncio);
-    console.log("ID :", this.idProduto);
-    console.log("Preço :", this.precoProduto);
-    console.log("Promoção :", this.promocao);*/
-    //Escopo das variaveis dentro do codigo
-    var variavel1;
-    let variavel2;
-    const variavel3 = 1;
-
-
-
-  }
->>>>>>> 4c8e853f232ee91b0278b1e0b38c5e941e5d7a13
 
   ngOnInit(): void {
   }
