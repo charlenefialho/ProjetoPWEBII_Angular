@@ -32,9 +32,7 @@ import { FormsModule } from '@angular/forms';
     BrowserAnimationsModule,
     ToastrModule.forRoot()
   ],
-  providers: [
-    { provide: LOCALE_ID, useValue: 'pt-BR' },
-],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
