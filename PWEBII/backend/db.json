@@ -1,5 +1,5 @@
 {
-  "produtos":[
+  "produtos": [
     {
       "id": 1,
       "nome": "Curso Angular",
@@ -10,8 +10,19 @@
       "id": 2,
       "nome": "Curso Ionic",
       "validade": "2021-12-31",
-      "precoProduto": 400
+      "precoProduto": 500
+    },
+    {
+      "nome": "Curso Flutter",
+      "validade": "2022-06-19",
+      "precoProduto": 200,
+      "id": 3
+    },
+    {
+      "nome": "Curso .Net",
+      "validade": "2022-06-19",
+      "precoProduto": 500,
+      "id": 4
     }
-
   ]
 }
