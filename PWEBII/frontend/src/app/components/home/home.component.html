@@ -25,13 +25,3 @@
   </div>
 </div>
 
-<div class="card" style="width: 18rem">
-  <img [src]="foto" class="card-img-top" alt="..." />
-  <div class="card-body">
-    <h5 class="card-title">
-      {{ nomeProduto | uppercase }} <!-- utilizando pipes -> só formata variavel -->
-      <span *ngIf="promocao;else elseBlock" class="badge badge-success ">Promoção</span>
-      <ng-template #elseBlock>
-        <span class="badge badge-primary">Aproveite</span>
-      </ng-template>
-
